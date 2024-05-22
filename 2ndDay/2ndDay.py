@@ -77,3 +77,27 @@ print("getInputLength", getInputLength)
 practice2 = "Hi i am get a 200$. and my bill 10$ and i am by a cricket ball to 20$."
 getResult = practice2.count("$")
 print("$ = :", getResult, "Time")
+
+
+# Conditionals Statement
+age = 23
+
+if (age >= 10):
+    {
+        print("Applying a voter Id")
+    }
+else:
+    {
+        print("Not applying")
+    }
+
+amount = 200
+
+if (amount < 100):
+    print("Buy a PiaZZa")
+elif (amount <= 500):
+    print("Buy a cricket bat")
+elif (amount == 200):
+    print("Buy a car")
+else:
+    print("Don't buy anything, saving")
