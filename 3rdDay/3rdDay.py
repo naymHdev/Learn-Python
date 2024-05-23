@@ -1,6 +1,6 @@
-# Lecture - 3
+""" Lecture - 3 """
+""" List in python """
 
-# List in python
 marks = [12, 232, 33, 222, 321, 2321, 212]
 # print(type(marks), marks)
 
@@ -34,5 +34,26 @@ checkShort = [1, 3, 2, 8, 3, 0, 4, 12, 333, 22, 11]
 # checkShort.reverse()
 # checkShort.insert(3, 99)
 # checkShort.remove(1)
-checkShort.pop(0)
-print(checkShort)
+# checkShort.pop(0)
+# print(checkShort)
+
+
+""" Tuples in Python """
+
+tup = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
+# print(type(tup))
+# print(tup)
+
+
+""" Let's Practice """
+
+# 1.
+
+movieCollection = []
+movie1 = input('Movie name: ')
+movie2 = input('Movie name: ')
+movie3 = input('Movie name: ')
+
+movies = movie1, movie2, movie3
+movieCollection.append(movies)
+print("movieCollection: ", movieCollection)
