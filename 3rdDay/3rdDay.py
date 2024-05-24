@@ -47,7 +47,7 @@ tup = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
 
 """ Let's Practice """
 
-# 1.
+# 1. WAP to ask the user to enter names of their 3 favorite movies & store them in a list.
 
 movieCollection = []
 movie1 = input('Movie name: ')
@@ -57,3 +57,6 @@ movie3 = input('Movie name: ')
 movies = movie1, movie2, movie3
 movieCollection.append(movies)
 print("movieCollection: ", movieCollection)
+
+# 2. WAP to count the number of students with the “A” grade in the following tuple.
+# solved !!
