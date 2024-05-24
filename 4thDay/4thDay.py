@@ -84,28 +84,57 @@ emptySet.remove(1)
 
 info = {1, 1, 2, 3, 2, 3, 4, 5, 6, 4, 5, 6, "naym", 'nhDev', 'naym'}
 
-print(info.pop())
+# print(info.pop())
 
 # print(info.clear())
 
 """ Let‘s Practice """
 
-""" 
+"""  Problem -1.
 Store following word meanings in a python dictionary :
 
 table : “a piece of furniture”, “list of facts & figures”
-cat : “a small animal”
+cat : “a small animal”  
+"""
+problem1 = {
+    "cat": "a small animal",
+    "table": ["a piece of furniture", "list of facts & figures"]
+}
+# print(problem1)
 
+""" Problem -3
 You are given a list of subjects for students. Assume one classroom is required for 1
 subject. How many classrooms are needed by all students.
 
 ”python”,“java”,“C++”,“python”,“javascript”,“java”,“python”, “java”, “C++”,“C”
  """
 
-""" 
+problem2 = {"python", "java", "C++", "python",
+            "javascript", "java", "python", "java", "C++", "C"}
+# print(problem2)
+# print(len(problem2))
+
+
+""" Problem -4.
 WAP to enter marks of 3 subjects from the user and store them in a dictionary. Start with
 an empty dictionary & add one by one. Use subject name as key & marks as value.
+"""
+marks = {}
+# x = int(input("Math Marks: "))
+# marks.update({"Math": x})
+# y = int(input("physics Marks: "))
+# marks.update({"physics": y})
+# c = int(input("english Marks: "))
+# marks.update({"english": c})
+# print(marks)
 
-Figure out a way to store 9 & 9.0 as separate values in the set.
-(You can take help of built-in data types)
- """
+""" Problem -5 
+   Figure out a way to store 9 & 9.0 as separate values in the set.
+   (You can take help of built-in data types)
+"""
+
+values = {
+    ("float", 9),
+    ("int", 9),
+}
+print(values)
