@@ -101,3 +101,4 @@ elif (amount == 200):
     print("Buy a car")
 else:
     print("Don't buy anything, saving")
+
